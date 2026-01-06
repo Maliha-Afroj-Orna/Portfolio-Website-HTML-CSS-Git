@@ -50,7 +50,11 @@
     text-align: center;
     margin-top: 50px;
 }
-
+.container {
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+}
 
 /* main style */
 /* header */
@@ -64,9 +68,6 @@ header {
 
 /* nav */
 nav {
-    width: 71%;
-    max-width: 1140px;
-    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -121,9 +122,6 @@ nav .menu a {
     padding-top: 130px;
 }
 #about .about-container {
-    width: 71%;
-    max-width: 1140px;
-    margin: 0 auto;
     text-align: center;
     background-color: #FFF8F3;
     padding: 131px 156px;
@@ -146,11 +144,6 @@ nav .menu a {
 
 
 /* skills */
-#skills .skills-container {
-    width: 71%;
-    max-width: 1140px;
-    margin: 0 auto;
-}
 #skills .skills-container .skills-box {
     display: flex;
     gap: 24px;
@@ -179,9 +172,7 @@ nav .menu a {
 
 /* resume */
 #resume .resume-container {
-    width: 71%;
-    max-width: 1140px;
-    margin: 113px auto 0;
+    margin-top: 113px;
     display: flex;
     gap: 24px;
 }
@@ -224,9 +215,6 @@ footer {
     padding: 130px 0;
 }
 footer .footer-container {
-    width: 71%;
-    max-width: 1140px;
-    margin: 0 auto;
     display: flex;
     gap: 117px;
 }
